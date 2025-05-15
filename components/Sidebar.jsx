@@ -15,7 +15,7 @@ export default function Sidebar() {
   const toggleDropdown = () => setIsOpen(!isOpen);
 
   return (
-    <aside className="fixed top-[110px] left-0 w-64 h-[calc(100vh-110px)] bg-blue-500 text-white px-4 py-6 z-40">
+    <aside className="fixed top-[110px] left-0 w-64 h-[calc(100vh-110px)] bg-indigo-500 text-white px-4 py-6 z-40">
       
       <button
         onClick={toggleDropdown}

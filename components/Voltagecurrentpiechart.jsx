@@ -13,7 +13,7 @@ export default function VoltageCurrentPieChart() {
       {
         label: "kWh",
         data: [voltage, current],
-        backgroundColor: ["#3b82f6", "#ef4444"], // blue, red
+        backgroundColor: ["#FBBF24", "#F43F5E"], 
         borderColor: ["#60a5fa", "#f87171"],
         borderWidth: 1,
       },
